@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+          <div class="wrapper">
+            <div class="logo"><h1>Portifólio Michelle</h1></div>
+            <div class="search"><input type="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="links">
+              <a href="">Home</a>
+              <a href="">Sobre</a>
+              
+              <a href="">Contato</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-logo logo"><h1>PixelSet</h1></div>
+        <div class="hamburg"><i class="fa-solid fa-bars"></i></div>
+        <div class="navbar-responsive">
+          <div class="res-links">
+            <a href="">Home</a>
+            <a href="">Sobre</a>
+            
+            <a href="">Contact</a>
+            <div class="cancel"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+        </div>
+    </nav>
+    <div class="res-search"><input type="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    <section>
+      <div class="title">IMAGENS</div>
+      <div class="container">
+        <div class="image-container">
+          <div class="first">
+            <a href="images/MS.png" target="_blank">
+                <img src="images/MS.png" alt="MS">
+            </a>
+            <a href="images/Logo para confeitaria delicado rosa.png" target="_blank">
+                <img src="images/Logo para confeitaria delicado rosa.png" alt="Logo para confeitaria">
+            </a>
+            <a href="images/banner 1.jpg" target="_blank">
+                <img src="images/banner 1.jpg" alt="Banner 1">
+            </a>
+            <a href="images/banner2.jpg" target="_blank">
+                <img src="images/banner2.jpg" alt="Banner 2">
+            </a>
+            <a href="images/gif 1.gif" target="_blank">
+                <img src="images/gif 1.gif" alt="Gif 1">
+            </a>
+           
+        </div>
+        <div class="first">
+
+          
+            <a href="images/tigre bmp.bmp" target="_blank">
+                <img src="images/tigre bmp.bmp" alt="Tigre BMP">
+            </a>
+            <a href="images/img bmp2.bmp" target="_blank">
+                <img src="images/img bmp2.bmp" alt="Imagem BMP2">
+            </a>
+            <a href="images/gif2.gif" target="_blank">
+              <img src="images/gif2.gif" alt="Gif 2">
+          </a>
+          <a href="images/221.jpg" target="_blank">
+              <img src="images/221.jpg" alt="Imagem 221">
+          </a>
+        </div>
+        
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+          <style>
+            .btn-primary {
+    font-family: 'Roboto', sans-serif; /* Exemplo de fonte do Google Fonts */
+    background: linear-gradient(to bottom, #4a4a4a, #000); /* Degradê de cinza escuro para preto */
+    border: none; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    padding: 12px 24px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    display: inline-block; /* Exibe o link como um botão */
+    transition: background 0.3s ease; /* Animação suave ao passar o mouse */
+    font-size: 14px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+    
+            .btn-primary:hover {
+                background: linear-gradient(to bottom, #333, #000); /* Alteração do degradê ao passar o mouse */
+            }
+    
+            .btn-primary .bi {
+                vertical-align: middle; /* Centraliza o ícone em relação ao texto */
+                margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+            }
+    
+            .text-center {
+                display: flex; /* Utiliza Flexbox para o layout */
+                justify-content: center; /* Centraliza os itens no centro */
+                align-items: center; /* Alinha os itens verticalmente */
+                margin-top: 1rem; /* Espaçamento superior */
+            }
+        </style>
+
+  <div class="first">
+
+    <div class="text-center mt-5">
+      <a class="btn btn-primary px-4 py-3 me-2" href="images/Ice-mockup.psd" download>
+          <div class="d-inline-block bi bi-download me-2"></div>
+          Imagem PSD 1
+      </a>
+      <a class="btn btn-primary px-4 py-3" href="images/omidre.psd" download>
+          <div class="d-inline-block bi bi-download me-2"></div>
+          Imagem PSD 2
+      </a>
+  </div>
+  
+  </div>
+    </section>
+    <script>
+      const nav = document.querySelector('.hamburg');
+      const cancel = document.querySelector('.cancel');
+      const resNav = document.querySelector('.navbar-responsive');
+      nav.addEventListener('click', ()=>{
+        resNav.style.transform = 'translateY(0vh)'
+      })
+      
+      cancel.addEventListener('click', ()=>{
+        resNav.style.transform = 'translateY(-40vh)'
+      })
+
+    </script>
+</body>
+</html>
